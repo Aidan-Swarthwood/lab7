@@ -1,0 +1,63 @@
+public class Main {
+    public Main() {
+    }
+
+    public static void main(String[] args) {
+        System.out.println("1. A loop that counts (i.e. displays the count) up by 1 from 0 to 30");
+
+        int i;
+        for(i = 0; i <= 30; ++i) {
+            System.out.println(i);
+        }
+
+        System.out.println("2. A loop that counts down by 1 from 30 to 0");
+
+        for(i = 30; i >= 0; --i) {
+            System.out.println(i);
+        }
+
+        System.out.println("3. A loop that counts up by 3 from 0 to 18");
+
+        for(i = 0; i <= 18; i += 3) {
+            System.out.println(i);
+        }
+
+        System.out.println("4. A loop that counts down by 2 from 10 to 0");
+
+        for(i = 10; i >= 0; i -= 2) {
+            System.out.println(i);
+        }
+
+        System.out.println("5.");
+
+        int j;
+        for(i = 1; i <= 5; ++i) {
+            for(j = 1; j <= i; ++j) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
+
+        System.out.println("6.");
+
+        for(i = 5; i >= 1; --i) {
+            for(j = 1; j <= i; ++j) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
+
+        System.out.println("7.");
+
+        for(i = 1; i <= 5; ++i) {
+            for(j = 1; j <= 5; ++j) {
+                System.out.print('*');
+            }
+
+            System.out.print("\n");
+        }
+
+    }
+}
